@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-form">
+        <div class="emp-h1">
+          <h1>New Employees</h1>
+        </div>
+        <div class="form-div">
+          <form id="emp-form" onsubmit="handleSubmit(event)">
+            <div class="emp-detail">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Name"
+              />
+              <input
+                type="text"
+                name="profession"
+                id="profession"
+                placeholder="Enter Profession"
+              />
+              <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="Enter Age"
+              />
+            </div>
+            <div class="add-div">
+              <input type="submit" class="submit-btn" value="Add User" />
+            </div>
+          </form>
+        </div>
+        <div class="message-div">
+          <p class="warning-message"></p>
+        </div>
+      </div>
+      <div class="added-emp-div">
+        <div class="added-emp-heading">
+          <h1 class="emp-h1">Added Employees</h1>
+          <p class="zero-emp-message">You have 0 employee</p>
+        </div>
+
+        <div class="add-emp"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
