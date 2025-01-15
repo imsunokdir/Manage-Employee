@@ -38,6 +38,6 @@ A simple web application that allows users to add and manage employees. The app 
 
 
 ## Relevant Links
-- Live Demo: [Employee Management App](https://imsunokdir.github.io/add-employee/)
+- Live Demo: [Employee Management App](https://imsunokdir.github.io/Manage-Employee/)
 
 
